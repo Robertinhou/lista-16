@@ -1,33 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Robert\\source\\repos\\lista16\\",
+  "WorkspaceRootPath": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\robert\\source\\repos\\lista16\\lista16\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\aluno_manha\\source\\repos\\lista-16\\lista16\\usercontrols\\uc_cadastrarsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\usercontrols\\uc_cadastrarsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\robert\\source\\repos\\lista16\\lista16\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\robert\\source\\repos\\lista16\\lista16\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\robert\\source\\repos\\lista16\\lista16\\usercontrols\\uc_cadastrarsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\aluno_manha\\source\\repos\\lista-16\\lista16\\usercontrols\\uc_cadastrarsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\usercontrols\\uc_cadastrarsetor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\aluno_manha\\source\\repos\\lista-16\\lista16\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\aluno_manha\\source\\repos\\lista-16\\lista16\\setor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\setor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\robert\\source\\repos\\lista16\\lista16\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\aluno_manha\\source\\repos\\lista-16\\lista16\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\funcionario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\aluno_manha\\source\\repos\\lista-16\\lista16\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\conexao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\robert\\source\\repos\\lista16\\lista16\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|c:\\users\\aluno_manha\\source\\repos\\lista-16\\lista16\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AB63C6AB-D370-4909-8599-041050A8229C}|lista16\\lista16.csproj|solutionrelative:lista16\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -38,78 +46,104 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Funcionario.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\Funcionario.cs",
-              "RelativeDocumentMoniker": "lista16\\Funcionario.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\Funcionario.cs*",
-              "RelativeToolTip": "lista16\\Funcionario.cs*",
-              "ViewState": "AgIAACkAAAAAAAAAAAAIwC4AAAAhAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "UC_CadastrarSetor.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\UserControls\\UC_CadastrarSetor.cs",
+              "RelativeDocumentMoniker": "lista16\\UserControls\\UC_CadastrarSetor.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\UserControls\\UC_CadastrarSetor.cs",
+              "RelativeToolTip": "lista16\\UserControls\\UC_CadastrarSetor.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAUwCQAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T18:01:59.163Z",
+              "WhenOpened": "2025-04-29T13:26:01.167Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Conexao.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\Conexao.cs",
-              "RelativeDocumentMoniker": "lista16\\Conexao.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\Conexao.cs",
-              "RelativeToolTip": "lista16\\Conexao.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBQAAAAMAAAAAAAAAA==",
+              "Title": "UC_CadastrarSetor.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\UserControls\\UC_CadastrarSetor.cs",
+              "RelativeDocumentMoniker": "lista16\\UserControls\\UC_CadastrarSetor.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\UserControls\\UC_CadastrarSetor.cs [Projeto]",
+              "RelativeToolTip": "lista16\\UserControls\\UC_CadastrarSetor.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T17:45:59.258Z",
+              "WhenOpened": "2025-04-29T13:25:03.326Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Setor.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Setor.cs",
+              "RelativeDocumentMoniker": "lista16\\Setor.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Setor.cs",
+              "RelativeToolTip": "lista16\\Setor.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAswBgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T11:50:07.671Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "UC_Home.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\UserControls\\UC_Home.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "lista16\\UserControls\\UC_Home.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\UserControls\\UC_Home.cs*",
-              "RelativeToolTip": "lista16\\UserControls\\UC_Home.cs*",
-              "ViewState": "AgIAAB8AAAAAAAAAAIAwwCoAAAAyAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\UserControls\\UC_Home.cs",
+              "RelativeToolTip": "lista16\\UserControls\\UC_Home.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAwwDkAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T17:28:51.594Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UC_CadastrarSetor.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\UserControls\\UC_CadastrarSetor.cs",
-              "RelativeDocumentMoniker": "lista16\\UserControls\\UC_CadastrarSetor.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\UserControls\\UC_CadastrarSetor.cs [Projeto]",
-              "RelativeToolTip": "lista16\\UserControls\\UC_CadastrarSetor.cs [Projeto]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-25T17:00:10.875Z",
-              "EditorCaption": " [Projeto]"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 4,
               "Title": "UC_Home.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\UserControls\\UC_Home.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "lista16\\UserControls\\UC_Home.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\UserControls\\UC_Home.cs [Projeto]*",
-              "RelativeToolTip": "lista16\\UserControls\\UC_Home.cs [Projeto]*",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\UserControls\\UC_Home.cs [Projeto]",
+              "RelativeToolTip": "lista16\\UserControls\\UC_Home.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-24T13:57:53.517Z",
               "EditorCaption": " [Projeto]"
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Funcionario.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Funcionario.cs",
+              "RelativeDocumentMoniker": "lista16\\Funcionario.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Funcionario.cs",
+              "RelativeToolTip": "lista16\\Funcionario.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAEkAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:01:59.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "Conexao.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Conexao.cs",
+              "RelativeDocumentMoniker": "lista16\\Conexao.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Conexao.cs",
+              "RelativeToolTip": "lista16\\Conexao.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAcwBQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T17:45:59.258Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Form1.cs",
               "RelativeDocumentMoniker": "lista16\\Form1.cs",
-              "ToolTip": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\Form1.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Form1.cs",
               "RelativeToolTip": "lista16\\Form1.cs",
               "ViewState": "AgIAAGsAAAAAAAAAAAAQwHYAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -118,15 +152,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "Form1.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\Source\\Repos\\lista-16\\lista16\\Form1.cs",
               "RelativeDocumentMoniker": "lista16\\Form1.cs",
               "ToolTip": "C:\\Users\\Robert\\source\\repos\\lista16\\lista16\\Form1.cs [Projeto]",
-              "RelativeToolTip": "lista16\\Form1.cs [Projeto]",
+              "RelativeToolTip": "..\\..\\..\\..\\Robert\\source\\repos\\lista16\\lista16\\Form1.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-24T13:39:54.006Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-04-24T13:39:54.006Z"
             }
           ]
         }

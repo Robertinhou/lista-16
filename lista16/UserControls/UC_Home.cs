@@ -30,28 +30,46 @@ namespace lista16.UserControls
 
         }
 
-        
+
 
         private void UC_Home_Load_1(object sender, EventArgs e)
         {
 
-            using (MySqlConnection conexao = new Conexao().Conectar() )
+            using (MySqlConnection conexao = new Conexao().Conectar())
             {
 
-                Funcionario setor = new Funcionario();
+                Setor setor = new Setor();
 
                 List<string> setores = setor.ObterSetores();
-                
 
-                
+
+
 
                 foreach (string set in setores)
                 {
                     comboBox1.Items.Add(set);
                 }
 
+                if (setores.Count == 0)
+                {
+
+                    comboBox1.Items.Add("Nenhum setor encontrado!");
+
+                    comboBox1.SelectedIndex = 0;
+
+                    comboBox1.Enabled = false;
+                }
+
             }
+
+        }
+
+        private void comboBox1_SelectedIndexChanged_1(object sender, EventArgs e)
+        {
+            Setor setor = new Setor();
             
+            
+
         }
     }
 }

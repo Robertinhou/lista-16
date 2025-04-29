@@ -50,9 +50,10 @@
             // 
             label2.AutoSize = true;
             label2.Font = new Font("Arial Black", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            label2.Location = new Point(44, 24);
+            label2.Location = new Point(63, 40);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(118, 23);
+            label2.Size = new Size(178, 33);
             label2.TabIndex = 30;
             label2.Text = "Inserir setor";
             // 
@@ -60,104 +61,118 @@
             // 
             lblTitle.AutoSize = true;
             lblTitle.Font = new Font("Arial Black", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 0);
-            lblTitle.Location = new Point(47, 125);
+            lblTitle.Location = new Point(67, 208);
+            lblTitle.Margin = new Padding(4, 0, 4, 0);
             lblTitle.Name = "lblTitle";
-            lblTitle.Size = new Size(114, 23);
+            lblTitle.Size = new Size(171, 33);
             lblTitle.TabIndex = 29;
             lblTitle.Text = "Editar setor";
             // 
             // btnCancelar
             // 
-            btnCancelar.Location = new Point(673, 222);
+            btnCancelar.Location = new Point(961, 370);
+            btnCancelar.Margin = new Padding(4, 5, 4, 5);
             btnCancelar.Name = "btnCancelar";
-            btnCancelar.Size = new Size(132, 49);
+            btnCancelar.Size = new Size(189, 82);
             btnCancelar.TabIndex = 28;
             btnCancelar.Text = "Cancelar";
             btnCancelar.UseVisualStyleBackColor = true;
             // 
             // btnListarPnome
             // 
-            btnListarPnome.Location = new Point(432, 192);
+            btnListarPnome.Location = new Point(617, 320);
+            btnListarPnome.Margin = new Padding(4, 5, 4, 5);
             btnListarPnome.Name = "btnListarPnome";
-            btnListarPnome.Size = new Size(132, 49);
+            btnListarPnome.Size = new Size(189, 82);
             btnListarPnome.TabIndex = 27;
             btnListarPnome.Text = "Procurar";
             btnListarPnome.UseVisualStyleBackColor = true;
             // 
             // btnListarTodos
             // 
-            btnListarTodos.Location = new Point(646, 350);
+            btnListarTodos.Location = new Point(923, 583);
+            btnListarTodos.Margin = new Padding(4, 5, 4, 5);
             btnListarTodos.Name = "btnListarTodos";
-            btnListarTodos.Size = new Size(177, 49);
+            btnListarTodos.Size = new Size(253, 82);
             btnListarTodos.TabIndex = 26;
             btnListarTodos.Text = "Listar todos";
             btnListarTodos.UseVisualStyleBackColor = true;
             // 
             // btnExcluir
             // 
-            btnExcluir.Location = new Point(673, 166);
+            btnExcluir.Location = new Point(961, 277);
+            btnExcluir.Margin = new Padding(4, 5, 4, 5);
             btnExcluir.Name = "btnExcluir";
-            btnExcluir.Size = new Size(132, 49);
+            btnExcluir.Size = new Size(189, 82);
             btnExcluir.TabIndex = 25;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(673, 99);
+            btnEditar.Location = new Point(961, 165);
+            btnEditar.Margin = new Padding(4, 5, 4, 5);
             btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(132, 49);
+            btnEditar.Size = new Size(189, 82);
             btnEditar.TabIndex = 24;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(150, 70);
+            txtNome.Location = new Point(214, 117);
+            txtNome.Margin = new Padding(4, 5, 4, 5);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(267, 23);
+            txtNome.Size = new Size(380, 31);
             txtNome.TabIndex = 23;
             // 
             // txtID
             // 
-            txtID.Location = new Point(341, 206);
+            txtID.Location = new Point(487, 343);
+            txtID.Margin = new Padding(4, 5, 4, 5);
             txtID.Name = "txtID";
-            txtID.Size = new Size(76, 23);
+            txtID.Size = new Size(107, 31);
             txtID.TabIndex = 22;
             // 
             // lblNome
             // 
             lblNome.AutoSize = true;
             lblNome.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblNome.Location = new Point(50, 72);
+            lblNome.Location = new Point(71, 120);
+            lblNome.Margin = new Padding(4, 0, 4, 0);
             lblNome.Name = "lblNome";
-            lblNome.Size = new Size(56, 21);
+            lblNome.Size = new Size(85, 32);
             lblNome.TabIndex = 21;
             lblNome.Text = "Nome:";
             // 
             // btnGravar
             // 
-            btnGravar.Location = new Point(673, 44);
+            btnGravar.Location = new Point(961, 73);
+            btnGravar.Margin = new Padding(4, 5, 4, 5);
             btnGravar.Name = "btnGravar";
-            btnGravar.Size = new Size(132, 49);
+            btnGravar.Size = new Size(189, 82);
             btnGravar.TabIndex = 20;
             btnGravar.Text = "Gravar";
             btnGravar.UseVisualStyleBackColor = true;
+            btnGravar.Click += btnGravar_Click;
             // 
             // txtNomeSetor
             // 
-            txtNomeSetor.Location = new Point(50, 206);
+            txtNomeSetor.Location = new Point(71, 343);
+            txtNomeSetor.Margin = new Padding(4, 5, 4, 5);
             txtNomeSetor.Name = "txtNomeSetor";
-            txtNomeSetor.Size = new Size(268, 23);
+            txtNomeSetor.Size = new Size(381, 31);
             txtNomeSetor.TabIndex = 19;
             // 
             // lblid
             // 
             lblid.AutoSize = true;
             lblid.Font = new Font("Segoe UI", 12F);
-            lblid.Location = new Point(341, 166);
+            lblid.Location = new Point(487, 277);
+            lblid.Margin = new Padding(4, 0, 4, 0);
             lblid.Name = "lblid";
-            lblid.Size = new Size(28, 21);
+            lblid.Size = new Size(42, 32);
             lblid.TabIndex = 18;
             lblid.Text = "ID:";
             // 
@@ -165,24 +180,26 @@
             // 
             lblNomeSetor.AutoSize = true;
             lblNomeSetor.Font = new Font("Segoe UI", 12F);
-            lblNomeSetor.Location = new Point(47, 166);
+            lblNomeSetor.Location = new Point(67, 277);
+            lblNomeSetor.Margin = new Padding(4, 0, 4, 0);
             lblNomeSetor.Name = "lblNomeSetor";
-            lblNomeSetor.Size = new Size(174, 21);
+            lblNomeSetor.Size = new Size(271, 32);
             lblNomeSetor.TabIndex = 17;
             lblNomeSetor.Text = "Digite o nome do Setor:";
             // 
             // dataGrind
             // 
             dataGrind.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGrind.Location = new Point(50, 247);
+            dataGrind.Location = new Point(71, 412);
+            dataGrind.Margin = new Padding(4, 5, 4, 5);
             dataGrind.Name = "dataGrind";
             dataGrind.RowHeadersWidth = 62;
-            dataGrind.Size = new Size(581, 196);
+            dataGrind.Size = new Size(830, 327);
             dataGrind.TabIndex = 16;
             // 
             // UC_CadastrarSetor
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(label2);
             Controls.Add(lblTitle);
@@ -199,8 +216,9 @@
             Controls.Add(lblid);
             Controls.Add(lblNomeSetor);
             Controls.Add(dataGrind);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "UC_CadastrarSetor";
-            Size = new Size(850, 461);
+            Size = new Size(1214, 768);
             ((System.ComponentModel.ISupportInitialize)dataGrind).EndInit();
             ResumeLayout(false);
             PerformLayout();

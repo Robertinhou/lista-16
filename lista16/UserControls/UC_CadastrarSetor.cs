@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.ComponentModel.Design.Serialization;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -15,6 +16,26 @@ namespace lista16.UserControls
         public UC_CadastrarSetor()
         {
             InitializeComponent();
+        }
+
+        private void btnGravar_Click(object sender, EventArgs e)
+        {
+
+            Setor setor = new Setor();
+
+            setor.Nome = txtNome.Text;
+
+            setor.InserirSetor();
+
+            setor.BuscarPorNone(dataGrind);
+
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+
+            Setor setor = new Setor();
+
         }
     }
 }

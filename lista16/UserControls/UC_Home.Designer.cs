@@ -49,119 +49,135 @@
             txtCPF = new MaskedTextBox();
             txtSalario = new TextBox();
             comboBox1 = new ComboBox();
+            txtCargo = new TextBox();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dataGrid).BeginInit();
             SuspendLayout();
             // 
             // lblNomeF
             // 
             lblNomeF.AutoSize = true;
-            lblNomeF.Location = new Point(33, 20);
+            lblNomeF.Location = new Point(47, 33);
+            lblNomeF.Margin = new Padding(4, 0, 4, 0);
             lblNomeF.Name = "lblNomeF";
-            lblNomeF.Size = new Size(166, 15);
+            lblNomeF.Size = new Size(251, 25);
             lblNomeF.TabIndex = 0;
             lblNomeF.Text = "Digite o nome do funcionário:";
             // 
             // txtBuscarNome
             // 
-            txtBuscarNome.Location = new Point(215, 17);
+            txtBuscarNome.Location = new Point(307, 28);
+            txtBuscarNome.Margin = new Padding(4, 5, 4, 5);
             txtBuscarNome.Name = "txtBuscarNome";
-            txtBuscarNome.Size = new Size(365, 23);
+            txtBuscarNome.Size = new Size(520, 31);
             txtBuscarNome.TabIndex = 1;
             // 
             // dataGrid
             // 
             dataGrid.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGrid.Location = new Point(33, 62);
+            dataGrid.Location = new Point(47, 103);
+            dataGrid.Margin = new Padding(4, 5, 4, 5);
             dataGrid.Name = "dataGrid";
-            dataGrid.Size = new Size(547, 178);
+            dataGrid.RowHeadersWidth = 62;
+            dataGrid.Size = new Size(781, 297);
             dataGrid.TabIndex = 2;
             // 
             // lblID
             // 
             lblID.AutoSize = true;
-            lblID.Location = new Point(33, 253);
+            lblID.Location = new Point(47, 422);
+            lblID.Margin = new Padding(4, 0, 4, 0);
             lblID.Name = "lblID";
-            lblID.Size = new Size(21, 15);
+            lblID.Size = new Size(34, 25);
             lblID.TabIndex = 3;
             lblID.Text = "ID:";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(33, 282);
+            label2.Location = new Point(47, 470);
+            label2.Margin = new Padding(4, 0, 4, 0);
             label2.Name = "label2";
-            label2.Size = new Size(43, 15);
+            label2.Size = new Size(65, 25);
             label2.TabIndex = 4;
             label2.Text = "Nome:";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(33, 316);
+            label3.Location = new Point(47, 527);
+            label3.Margin = new Padding(4, 0, 4, 0);
             label3.Name = "label3";
-            label3.Size = new Size(34, 15);
+            label3.Size = new Size(53, 25);
             label3.TabIndex = 5;
             label3.Text = "Data:";
             // 
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(31, 346);
+            label4.Location = new Point(44, 577);
+            label4.Margin = new Padding(4, 0, 4, 0);
             label4.Name = "label4";
-            label4.Size = new Size(45, 15);
+            label4.Size = new Size(69, 25);
             label4.TabIndex = 6;
             label4.Text = "Salário:";
             // 
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(31, 379);
+            label5.Location = new Point(44, 632);
+            label5.Margin = new Padding(4, 0, 4, 0);
             label5.Name = "label5";
-            label5.Size = new Size(35, 15);
+            label5.Size = new Size(54, 25);
             label5.TabIndex = 7;
             label5.Text = "Sexo:";
             // 
             // label6
             // 
             label6.AutoSize = true;
-            label6.Location = new Point(482, 253);
+            label6.Location = new Point(689, 422);
+            label6.Margin = new Padding(4, 0, 4, 0);
             label6.Name = "label6";
-            label6.Size = new Size(31, 15);
+            label6.Size = new Size(46, 25);
             label6.TabIndex = 8;
             label6.Text = "CPF:";
             // 
             // label7
             // 
             label7.AutoSize = true;
-            label7.Location = new Point(482, 285);
+            label7.Location = new Point(689, 475);
+            label7.Margin = new Padding(4, 0, 4, 0);
             label7.Name = "label7";
-            label7.Size = new Size(37, 15);
+            label7.Size = new Size(58, 25);
             label7.TabIndex = 9;
             label7.Text = "Setor:";
             // 
             // btnCadastrar
             // 
-            btnCadastrar.Location = new Point(146, 423);
+            btnCadastrar.Location = new Point(209, 705);
+            btnCadastrar.Margin = new Padding(4, 5, 4, 5);
             btnCadastrar.Name = "btnCadastrar";
-            btnCadastrar.Size = new Size(137, 30);
+            btnCadastrar.Size = new Size(196, 50);
             btnCadastrar.TabIndex = 10;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
             // 
             // btnEditar
             // 
-            btnEditar.Location = new Point(367, 423);
+            btnEditar.Location = new Point(524, 705);
+            btnEditar.Margin = new Padding(4, 5, 4, 5);
             btnEditar.Name = "btnEditar";
-            btnEditar.Size = new Size(137, 30);
+            btnEditar.Size = new Size(196, 50);
             btnEditar.TabIndex = 11;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
             // 
             // btnExcluir
             // 
-            btnExcluir.Location = new Point(574, 423);
+            btnExcluir.Location = new Point(820, 705);
+            btnExcluir.Margin = new Padding(4, 5, 4, 5);
             btnExcluir.Name = "btnExcluir";
-            btnExcluir.Size = new Size(137, 30);
+            btnExcluir.Size = new Size(196, 50);
             btnExcluir.TabIndex = 12;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
@@ -169,9 +185,10 @@
             // CBmasculino
             // 
             CBmasculino.AutoSize = true;
-            CBmasculino.Location = new Point(72, 379);
+            CBmasculino.Location = new Point(103, 632);
+            CBmasculino.Margin = new Padding(4, 5, 4, 5);
             CBmasculino.Name = "CBmasculino";
-            CBmasculino.Size = new Size(81, 19);
+            CBmasculino.Size = new Size(118, 29);
             CBmasculino.TabIndex = 13;
             CBmasculino.Text = "Masculino";
             CBmasculino.UseVisualStyleBackColor = true;
@@ -179,64 +196,92 @@
             // CBfeminino
             // 
             CBfeminino.AutoSize = true;
-            CBfeminino.Location = new Point(159, 379);
+            CBfeminino.Location = new Point(227, 632);
+            CBfeminino.Margin = new Padding(4, 5, 4, 5);
             CBfeminino.Name = "CBfeminino";
-            CBfeminino.Size = new Size(76, 19);
+            CBfeminino.Size = new Size(111, 29);
             CBfeminino.TabIndex = 14;
             CBfeminino.Text = "Feminino";
             CBfeminino.UseVisualStyleBackColor = true;
             // 
             // txtID
             // 
-            txtID.Location = new Point(88, 253);
+            txtID.Location = new Point(126, 422);
+            txtID.Margin = new Padding(4, 5, 4, 5);
             txtID.Name = "txtID";
-            txtID.Size = new Size(67, 23);
+            txtID.Size = new Size(94, 31);
             txtID.TabIndex = 15;
             // 
             // txtNome
             // 
-            txtNome.Location = new Point(88, 282);
+            txtNome.Location = new Point(126, 470);
+            txtNome.Margin = new Padding(4, 5, 4, 5);
             txtNome.Name = "txtNome";
-            txtNome.Size = new Size(365, 23);
+            txtNome.Size = new Size(520, 31);
             txtNome.TabIndex = 16;
             // 
             // dtpData
             // 
             dtpData.Checked = false;
             dtpData.Format = DateTimePickerFormat.Short;
-            dtpData.Location = new Point(86, 313);
+            dtpData.Location = new Point(123, 522);
+            dtpData.Margin = new Padding(4, 5, 4, 5);
             dtpData.MinDate = new DateTime(1960, 1, 1, 0, 0, 0, 0);
             dtpData.Name = "dtpData";
-            dtpData.Size = new Size(111, 23);
+            dtpData.Size = new Size(157, 31);
             dtpData.TabIndex = 20;
             // 
             // txtCPF
             // 
-            txtCPF.Location = new Point(525, 250);
+            txtCPF.Location = new Point(750, 417);
+            txtCPF.Margin = new Padding(4, 5, 4, 5);
             txtCPF.Mask = "000,000,000-00";
             txtCPF.Name = "txtCPF";
-            txtCPF.Size = new Size(152, 23);
+            txtCPF.Size = new Size(215, 31);
             txtCPF.TabIndex = 22;
             // 
             // txtSalario
             // 
-            txtSalario.Location = new Point(86, 343);
+            txtSalario.Location = new Point(123, 572);
+            txtSalario.Margin = new Padding(4, 5, 4, 5);
             txtSalario.Name = "txtSalario";
-            txtSalario.Size = new Size(115, 23);
+            txtSalario.Size = new Size(163, 31);
             txtSalario.TabIndex = 17;
             // 
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(525, 285);
+            comboBox1.Location = new Point(750, 475);
+            comboBox1.Margin = new Padding(4, 5, 4, 5);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(152, 23);
+            comboBox1.Size = new Size(377, 33);
             comboBox1.TabIndex = 23;
+            comboBox1.SelectedIndexChanged += comboBox1_SelectedIndexChanged_1;
+            // 
+            // txtCargo
+            // 
+            txtCargo.Location = new Point(750, 527);
+            txtCargo.Margin = new Padding(4, 5, 4, 5);
+            txtCargo.Name = "txtCargo";
+            txtCargo.Size = new Size(377, 31);
+            txtCargo.TabIndex = 25;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(684, 532);
+            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(60, 25);
+            label1.TabIndex = 24;
+            label1.Text = "Cargo";
             // 
             // UC_Home
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(txtCargo);
+            Controls.Add(label1);
             Controls.Add(comboBox1);
             Controls.Add(txtCPF);
             Controls.Add(dtpData);
@@ -258,8 +303,9 @@
             Controls.Add(dataGrid);
             Controls.Add(txtBuscarNome);
             Controls.Add(lblNomeF);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "UC_Home";
-            Size = new Size(850, 461);
+            Size = new Size(1214, 768);
             Load += UC_Home_Load_1;
             ((System.ComponentModel.ISupportInitialize)dataGrid).EndInit();
             ResumeLayout(false);
@@ -289,5 +335,7 @@
         private MaskedTextBox txtCPF;
         private TextBox txtSalario;
         private ComboBox comboBox1;
+        private TextBox txtCargo;
+        private Label label1;
     }
 }

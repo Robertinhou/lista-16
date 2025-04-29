@@ -14,7 +14,13 @@ namespace lista16
         private int id;
         private string nome;
         private string cpf;
-        private string data;
+        private DateTime data;
+        private double salario;
+        private char sexo;
+        private string cargo;
+        private string setor;
+
+
 
         public int Id
         {
@@ -34,36 +40,37 @@ namespace lista16
             set { cpf = value; }
         }
 
-        public string Data
+        public DateTime Data
         {
             get { return data; }
             set { data = value; }
         }
 
-        
-
-       
-
-        public List<string> ObterSetores()
+        public double Salario
         {
-            using (MySqlConnection conexao = new Conexao().Conectar())
-            {
-                List<string> nomesSetores = new List<string>();
-
-                string sql = "SELECT * FROM setores ORDER BY nome ASC";
-                MySqlCommand comando = new MySqlCommand(sql, conexao);
-
-                using (MySqlDataReader reader = comando.ExecuteReader())
-                {
-                    while (reader.Read())
-                    {
-                        string nome = reader["nome"].ToString();
-                        nomesSetores.Add(nome);
-                    }
-                }
-
-                return nomesSetores;
-            }
+            get { return salario; }
+            set { salario = value; }
         }
+
+       public char Sexo
+        {
+            get { return sexo; }
+            set { sexo = value; }
+        }
+
+        public string Cargo
+        {
+            get { return cargo; }
+            set { cargo = value; }
+        }
+
+        public string Setor
+        {
+            get { return setor; }
+            set{ setor = value; }
+        }
+
+
+        
     }
 }
