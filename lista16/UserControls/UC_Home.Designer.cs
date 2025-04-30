@@ -41,8 +41,6 @@
             btnCadastrar = new Button();
             btnEditar = new Button();
             btnExcluir = new Button();
-            CBmasculino = new CheckBox();
-            CBfeminino = new CheckBox();
             txtID = new TextBox();
             txtNome = new TextBox();
             dtpData = new DateTimePicker();
@@ -51,6 +49,8 @@
             comboBox1 = new ComboBox();
             txtCargo = new TextBox();
             label1 = new Label();
+            rBtnMasculino = new RadioButton();
+            rBtnFeminina = new RadioButton();
             ((System.ComponentModel.ISupportInitialize)dataGrid).BeginInit();
             SuspendLayout();
             // 
@@ -71,6 +71,7 @@
             txtBuscarNome.Name = "txtBuscarNome";
             txtBuscarNome.Size = new Size(520, 31);
             txtBuscarNome.TabIndex = 1;
+            txtBuscarNome.TextChanged += txtBuscarNome_TextChanged;
             // 
             // dataGrid
             // 
@@ -81,6 +82,7 @@
             dataGrid.RowHeadersWidth = 62;
             dataGrid.Size = new Size(781, 297);
             dataGrid.TabIndex = 2;
+            dataGrid.CellContentClick += dataGrid_CellContentClick;
             // 
             // lblID
             // 
@@ -161,6 +163,7 @@
             btnCadastrar.TabIndex = 10;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
             // btnEditar
             // 
@@ -171,6 +174,7 @@
             btnEditar.TabIndex = 11;
             btnEditar.Text = "Editar";
             btnEditar.UseVisualStyleBackColor = true;
+            btnEditar.Click += btnEditar_Click;
             // 
             // btnExcluir
             // 
@@ -181,28 +185,7 @@
             btnExcluir.TabIndex = 12;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
-            // 
-            // CBmasculino
-            // 
-            CBmasculino.AutoSize = true;
-            CBmasculino.Location = new Point(103, 632);
-            CBmasculino.Margin = new Padding(4, 5, 4, 5);
-            CBmasculino.Name = "CBmasculino";
-            CBmasculino.Size = new Size(118, 29);
-            CBmasculino.TabIndex = 13;
-            CBmasculino.Text = "Masculino";
-            CBmasculino.UseVisualStyleBackColor = true;
-            // 
-            // CBfeminino
-            // 
-            CBfeminino.AutoSize = true;
-            CBfeminino.Location = new Point(227, 632);
-            CBfeminino.Margin = new Padding(4, 5, 4, 5);
-            CBfeminino.Name = "CBfeminino";
-            CBfeminino.Size = new Size(111, 29);
-            CBfeminino.TabIndex = 14;
-            CBfeminino.Text = "Feminino";
-            CBfeminino.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
             // 
             // txtID
             // 
@@ -211,6 +194,7 @@
             txtID.Name = "txtID";
             txtID.Size = new Size(94, 31);
             txtID.TabIndex = 15;
+            txtID.TextChanged += txtID_TextChanged;
             // 
             // txtNome
             // 
@@ -219,6 +203,7 @@
             txtNome.Name = "txtNome";
             txtNome.Size = new Size(520, 31);
             txtNome.TabIndex = 16;
+            txtNome.TextChanged += txtNome_TextChanged;
             // 
             // dtpData
             // 
@@ -230,6 +215,7 @@
             dtpData.Name = "dtpData";
             dtpData.Size = new Size(157, 31);
             dtpData.TabIndex = 20;
+            dtpData.ValueChanged += dtpData_ValueChanged;
             // 
             // txtCPF
             // 
@@ -239,6 +225,7 @@
             txtCPF.Name = "txtCPF";
             txtCPF.Size = new Size(215, 31);
             txtCPF.TabIndex = 22;
+            txtCPF.MaskInputRejected += txtCPF_MaskInputRejected;
             // 
             // txtSalario
             // 
@@ -247,6 +234,7 @@
             txtSalario.Name = "txtSalario";
             txtSalario.Size = new Size(163, 31);
             txtSalario.TabIndex = 17;
+            txtSalario.TextChanged += txtSalario_TextChanged;
             // 
             // comboBox1
             // 
@@ -265,6 +253,7 @@
             txtCargo.Name = "txtCargo";
             txtCargo.Size = new Size(377, 31);
             txtCargo.TabIndex = 25;
+            txtCargo.TextChanged += txtCargo_TextChanged;
             // 
             // label1
             // 
@@ -276,10 +265,36 @@
             label1.TabIndex = 24;
             label1.Text = "Cargo";
             // 
+            // rBtnMasculino
+            // 
+            rBtnMasculino.AutoSize = true;
+            rBtnMasculino.Location = new Point(122, 631);
+            rBtnMasculino.Name = "rBtnMasculino";
+            rBtnMasculino.Size = new Size(109, 29);
+            rBtnMasculino.TabIndex = 26;
+            rBtnMasculino.TabStop = true;
+            rBtnMasculino.Text = "Maculino";
+            rBtnMasculino.UseVisualStyleBackColor = true;
+            rBtnMasculino.CheckedChanged += rBtnMasculino_CheckedChanged;
+            // 
+            // rBtnFeminina
+            // 
+            rBtnFeminina.AutoSize = true;
+            rBtnFeminina.Location = new Point(241, 632);
+            rBtnFeminina.Name = "rBtnFeminina";
+            rBtnFeminina.Size = new Size(108, 29);
+            rBtnFeminina.TabIndex = 27;
+            rBtnFeminina.TabStop = true;
+            rBtnFeminina.Text = "Feminina";
+            rBtnFeminina.UseVisualStyleBackColor = true;
+            rBtnFeminina.CheckedChanged += rBtnFeminina_CheckedChanged;
+            // 
             // UC_Home
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(rBtnFeminina);
+            Controls.Add(rBtnMasculino);
             Controls.Add(txtCargo);
             Controls.Add(label1);
             Controls.Add(comboBox1);
@@ -288,8 +303,6 @@
             Controls.Add(txtSalario);
             Controls.Add(txtNome);
             Controls.Add(txtID);
-            Controls.Add(CBfeminino);
-            Controls.Add(CBmasculino);
             Controls.Add(btnExcluir);
             Controls.Add(btnEditar);
             Controls.Add(btnCadastrar);
@@ -327,8 +340,6 @@
         private Button btnCadastrar;
         private Button btnEditar;
         private Button btnExcluir;
-        private CheckBox CBmasculino;
-        private CheckBox CBfeminino;
         private TextBox txtID;
         private TextBox txtNome;
         private DateTimePicker dtpData;
@@ -337,5 +348,7 @@
         private ComboBox comboBox1;
         private TextBox txtCargo;
         private Label label1;
+        private RadioButton rBtnMasculino;
+        private RadioButton rBtnFeminina;
     }
 }

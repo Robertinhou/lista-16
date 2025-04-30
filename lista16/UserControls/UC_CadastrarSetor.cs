@@ -35,6 +35,7 @@ namespace lista16.UserControls
         {
 
             Setor setor = new Setor();
+            
 
         }
     }
